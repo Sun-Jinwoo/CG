@@ -87,7 +87,7 @@ public class UsarPersona : MonoBehaviour
             Debug.Log(listaE[i].NameP + " " + listaE[i].NameCarrera);
         }
 
-        Utilidades.SaveDataStudent(listaE);
+        bool v = Utilidades.SaveDataStudent(listaE);
     }
 
 }
